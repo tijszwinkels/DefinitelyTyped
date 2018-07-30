@@ -1107,10 +1107,6 @@ declare global {
     const $pres: typeof _$pres;
 }
 
-declare module "Strophe" {
-  export = Strophe;
-}
-
 declare module "$build" {
   export = $build;
 }
